@@ -1,3 +1,5 @@
+
+
 span {
     width: 400px;
     height: 100px;
@@ -18,9 +20,9 @@ color: red}
     width: 400px;
     vertical-align: top
 }
-.column1{margin-top: 50px;margin-bottom: 100px}
+.column{margin-top: 50px;margin-bottom: 100px}
 
-.column1 h1,.column2 h1{
+.column h1{
     color: paleturquoise
 }
 
@@ -30,7 +32,7 @@ h1.picture {
     font-weight: 100
 }
 
-.column1 p {
+p {
     margin-top: 50px;
     color: white
 }

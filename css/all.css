@@ -1,12 +1,15 @@
 @import url(//fonts.googleapis.com/earlyaccess/cwtexkai.css);
-*{
+* {
     font-family: 'cwTeXKai', serif;
-    cursor:;
-    font-size: 18pt
+    font-size: 18pt;
+    cursor: url(../img/01.cur),auto;
     
 }
+a{cursor: url(../img/15.cur),auto}
+
 body {
     background: url(../img/30b1OOOPICac.jpg);
+    
 }
 
 nav {
@@ -31,4 +34,3 @@ nav li a {
     vertical-align: top;
     width: 1500px;
 }
-.survice{color: dodgerblue;font-size: 30pt}

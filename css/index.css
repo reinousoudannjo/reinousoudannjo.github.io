@@ -1,47 +1,55 @@
+* {
+    color: white
+}
 
+body {
+    background: url(../img/1825087be5.jpg);
+    background-size: cover
+}
 
+h1 {
+    text-align: center
+}
 
+.star {
+    color: red
+}
 
+.girl {
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
 
-.banner {
-    width: 800px;
+.middle h1 {
+    display: inline-block
+}
+
+.main {
+    margin-top: 360px;
+    margin-bottom: 120px;
+}
+.main h1{text-shadow: 3px 3px 3px #575757}
+
+.enter {
     display: block;
+    width: 235px;
     margin: 0 auto;
+    margin-top: 100px
 }
 
-marquee {
-    display: block;
-    width: 800px;
-    color: white;
+.middle {
     margin: 0 auto;
-    margin-top: 20px;
+    width: 470px
 }
 
-.discount {
-    margin-top: 100px;
-    color: yellow;
-    font-size: 40pt;
+.counter {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
 }
 
-h2 {
-    color: white;
-    font-weight: 100;
-    line-height: 30px
-}
-
-.card{color: red;font-weight: 100;font-size: 40pt}
-
-.survice {
-    color: blue;
-    text-decoration: underline
-}
-.survice a{font-size: 32pt}
-
-.talk {
-    background: url(../img/back-92.gif);
-    padding: 10px 
-}
-
-.talk h2 {
-    color: black
+.counter h1 {
+    display: inline-block;
+    color: white
 }
