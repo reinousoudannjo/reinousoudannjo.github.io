@@ -1,0 +1,37 @@
+span {
+    width: 400px;
+    height: 100px;
+    display: block;
+    background: url(../img/blanklogo262.gif);
+    background-size: cover;
+    
+}
+#title{text-align:center;
+line-height: 100px;
+font-size: 36px;
+color: red}
+
+.img01,
+.img02,
+.img03 {
+    display: block;
+    width: 400px;
+    vertical-align: top
+}
+.column1{margin-top: 50px;margin-bottom: 100px}
+
+.column1 h1,.column2 h1{
+    color: paleturquoise
+}
+
+h1.picture {
+    color: white;
+    font-size: 20px;
+    font-weight: 100
+}
+
+.column1 p {
+    margin-top: 50px;
+    color: white
+}
+

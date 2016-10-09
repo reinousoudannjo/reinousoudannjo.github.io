@@ -1,0 +1,47 @@
+
+
+
+
+
+.banner {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+marquee {
+    display: block;
+    width: 800px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.discount {
+    margin-top: 100px;
+    color: yellow;
+    font-size: 40pt;
+}
+
+h2 {
+    color: white;
+    font-weight: 100;
+    line-height: 30px
+}
+
+.card{color: red;font-weight: 100;font-size: 40pt}
+
+.survice {
+    color: blue;
+    text-decoration: underline
+}
+.survice a{font-size: 32pt}
+
+.talk {
+    background: url(../img/back-92.gif);
+    padding: 10px 
+}
+
+.talk h2 {
+    color: black
+}
