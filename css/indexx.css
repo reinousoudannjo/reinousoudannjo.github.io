@@ -10,10 +10,13 @@ marquee {
     color: white;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 100px
 }
+.first{color: white;line-height: 50px
 
+margin-bottom: 50px;}
 .discount {
-    margin-top: 100px;
+    margin-top: 30px;
     color: yellow;
     font-size: 40pt;
 }
@@ -48,3 +51,4 @@ h2 {
 .talk h2 {
     color: black
 }
+p{color: white;}

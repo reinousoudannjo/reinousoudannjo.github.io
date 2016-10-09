@@ -1,11 +1,14 @@
 * {
-    color: white
+    color: white;
+    cursor: url(../img/01.cur),auto;
 }
 
 body {
     background: url(../img/1825087be5.jpg);
     background-size: cover
 }
+
+a{cursor: url(../img/15.cur),auto}
 
 h1 {
     text-align: center
@@ -45,11 +48,14 @@ h1 {
 
 .counter {
     position: relative;
+    display: block;
+    width: 230px;
     margin: 0 auto;
-    width: 500px;
+    
 }
 
 .counter h1 {
     display: inline-block;
     color: white
 }
+.counterimg{display: inline-block}

@@ -1,0 +1,17 @@
+h1{
+	font-size: 35pt;
+	font-style: italic;
+}
+.topic1{
+	color: green;
+}
+.topic2{
+	color: orange;
+}
+.topic3{
+	color: red;
+}
+.con{
+	color: yellow;
+	font-size: 15pt;
+}
