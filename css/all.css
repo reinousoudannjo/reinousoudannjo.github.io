@@ -15,7 +15,7 @@ body {
 nav {
     display: inline-block;
     height: 500px;
-    width: 330px;
+    width: 20%;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -32,5 +32,5 @@ nav li a {
 .right {
     display: inline-block;
     vertical-align: top;
-    width: 1500px;
+    width: 79%;
 }
