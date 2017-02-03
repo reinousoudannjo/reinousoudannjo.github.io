@@ -3,7 +3,7 @@
 }
 
 .right img {
-    width: 400px;
+    width: 30%;
     display: block;
     margin: 0 auto;
     margin-top: 50px;
@@ -11,8 +11,8 @@
 
 .right .bling {
     position: absolute;
-    width: 480px;
-    height: 400px;
+    width: 34%;
+    height: 23%;
     z-index: -1;
     left: 0;
     right: 0
@@ -27,7 +27,6 @@
     text-align: center;
     color: aqua;
     font-size: 50px;
-    
     text-decoration: underline
 }
 
@@ -44,12 +43,29 @@
 }
 
 .right p {
-   
     color: white;
     border: solid 1px red;
     padding: 15px;
-    width: 400px;
+    width:70%;
     margin: 0 auto;
     margin-top: 30px;
 }
 #first{border: none;color: greenyellow}
+
+@media screen and (max-width:700px){
+    .right img{
+        width: 80%
+    }
+    .right .bling{
+        width: 90%;
+        height: 20%
+    }
+}
+@media screen and (max-width:400px){
+    .right ul{
+        width: 100%
+    }
+    .right p{
+        width: 95%
+    }
+}
