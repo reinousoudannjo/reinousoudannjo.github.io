@@ -6,13 +6,13 @@
 
 marquee {
     display: block;
-    width: 900px;
+    width: 70%;
     color: white;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 100px
 }
-.first{color: white;line-height: 50px
+.first{color: white;line-height: 50px;
 
 margin-bottom: 50px;}
 .discount {
@@ -52,3 +52,14 @@ h2 {
     color: black
 }
 p{color: white;}
+@media screen and (max-width:400px){
+    nav,.right{
+        margin-top: 200px;
+    }
+    .right .banner{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0
+    }
+}
