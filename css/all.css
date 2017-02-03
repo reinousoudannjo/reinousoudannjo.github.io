@@ -9,12 +9,11 @@ a{cursor: url(../img/15.cur),auto}
 
 body {
     background: url(../img/30b1OOOPICac.jpg);
-    
+    overflow-x: hidden
 }
 
 nav {
     display: inline-block;
-    height: 500px;
     width: 20%;
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -32,7 +31,7 @@ nav li a {
 .right {
     display: inline-block;
     vertical-align: top;
-    width: 78%;
+    width: 75%;
 }
 @media screen and (max-width:700px){
     nav li a{
@@ -41,4 +40,10 @@ nav li a {
     iframe{
         display: none
     }
+}
+@media screen and (max-width:400px){
+    nav{
+        width: 30%;
+    }
+    .right{width: 60%}
 }
